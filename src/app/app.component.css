@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap");
+
+h1 {
+  margin: 15px;
+  padding: 5px;
+  font-family: "Otomanopee One", sans-serif;
+}
+
+footer {
+  clear: both;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  padding: 8px 15px;
+  text-align: center;
+  font-family: monospace;
+}
+
+a {
+  margin-left: 8px;
+  text-decoration: none;
+  color: grey;
+}
