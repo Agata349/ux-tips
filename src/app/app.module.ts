@@ -17,6 +17,11 @@ import { VisibilityComponent } from './tips/visibility/visibility.component';
 import { UnderstandabilityComponent } from './tips/understandability/understandability.component';
 import { SimplicityComponent } from './tips/simplicity/simplicity.component';
 import { UsersInfoComponent } from './tips/users-info/users-info.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import { MaterialModule} from './shared/material.module';
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -38,7 +43,10 @@ import { UsersInfoComponent } from './tips/users-info/users-info.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MaterialModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

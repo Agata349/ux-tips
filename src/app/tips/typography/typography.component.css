@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap");
+
+h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.dont,
+.do {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-left: 12px;
+  color: red;
+}
+
+.do {
+  color: green;
+}
+
+.serif {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.sans-serif {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.script {
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+}
+
+.decorative {
+  font-family: "Mountains of Christmas", cursive;
+  font-weight: 700;
+}
+
+.arial {
+  font-family: arial;
+}
+
+.courier-new {
+  font-family: "Courier New";
+}
+
+.georgia {
+  font-family: tahoma;
+}
+
+.tahoma {
+    font-family: Tahoma, sans-serif;
+}
+
+.times-new-roman {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.verdana {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+

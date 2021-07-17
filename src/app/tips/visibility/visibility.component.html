@@ -1,1 +1,72 @@
-<p>visibility works!</p>
+<mat-card>
+    <h1>Visibility</h1>
+    <p>The usability of a system is greatly enhanced if elements are clearly visible to the user. 
+        That's why we need to remember about things like: <strong>the "fold", scrolling, 
+            banner blindness.</strong></p>
+    <h2>Elements which should be placed above the fold</h2>
+    <ul>
+        <li>Branding</li>
+        <li>Main navigation</li>
+        <li>Contact information, including Help</li>
+        <li>Search box</li>
+        <li>Shopping carts</li>
+        <li>Sign up/login</li>
+    </ul>
+    <p>Users look at: plain text, faces & body parts and unusual things.</p>
+</mat-card>
+
+<mat-card>
+    <h2 class="dont">DON'Ts<i class="far fa-times-circle" id="dont"></i></h2><br>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 class="incorrect-title">Explore Croatia with us!</h1>
+                <h4 class="incorrect-tabs">About us | Offer | Gallery | Help</h4>
+            </div>
+            <div class="col">
+                <img src="../../../assets/croatia.jpg" class="banner" width=300>
+            </div>
+        </div>
+    </div>
+    <mat-toolbar>
+        <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+            <mat-icon>menu</mat-icon>
+        </button>
+        <span>Hrvatska Tours</span>
+        <span class="example-spacer"></span>
+        <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+            <mat-icon>favorite</mat-icon>
+        </button>
+        <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+            <mat-icon>share</mat-icon>
+        </button>
+    </mat-toolbar><br>
+    <hr>      
+    <h2 class="do">DO's<i class="far fa-check-circle" id="do"></i></h2><br>
+    <h1 class="title">Explore Croatia with us!</h1>
+    <h4>About us | Offer | Gallery | Help</h4>
+        <mat-toolbar>
+            <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+                <mat-icon>menu</mat-icon>
+            </button>
+            <span>Hrvatska Tours</span>
+            <span class="example-spacer"></span>
+            <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+                <mat-icon>favorite</mat-icon>
+            </button>
+            <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+                <mat-icon>share</mat-icon>
+            </button>
+        </mat-toolbar>
+        <img src="../../../assets/croatia.jpg" class="responsive">
+</mat-card>
+
+<mat-card>
+    <h2>Tips</h2>
+    <ul>
+        <li>Key elements should be above the fold</li>
+        <li>Make your pages scrolling-friendly</li>
+        <li>Don't make things look like ads</li>
+        <li>Never use horizontal scrollbars!</li>
+    </ul>
+</mat-card>

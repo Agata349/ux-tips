@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Squada+One&display=swap");
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.dont,
+.do {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-left: 12px;
+  color: red;
+}
+
+.do {
+  color: green;
+}
+
+.incorrect-title {
+  font-size: 26px;
+  font-family: "Squada One", cursive;
+}
+
+.incorrect-tabs {
+  text-align: left;
+  font-weight: thin;
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Squada One", cursive;
+}
+
+h4 {
+  text-align: center;
+  font-weight: thin;
+}
+
+.banner {
+  float: right;
+}

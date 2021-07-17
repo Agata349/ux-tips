@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+h1,
+.persona {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.proto-persona {
+  font-family: "Pacifico", cursive;
+  font-size: 20px;
+}
+
+#proto-persona-text {
+  font-family: "Pacifico", cursive;
+}

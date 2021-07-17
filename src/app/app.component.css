@@ -1,9 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap");
 
-h1 {
-  margin: 15px;
-  padding: 5px;
-  font-family: "Otomanopee One", sans-serif;
+.container {
+  max-width: 850px;
 }
 
 footer {
@@ -12,6 +10,7 @@ footer {
   bottom: 0;
   width: 100%;
   padding: 8px 15px;
+  background-color: #f8f9fa;
   text-align: center;
   font-family: monospace;
 }

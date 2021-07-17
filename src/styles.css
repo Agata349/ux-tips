@@ -1,1 +1,51 @@
-/* You can add global styles to this file, and also import other style files */
+@import "@angular/material/prebuilt-themes/indigo-pink.css";
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+mat-card {
+  margin: 35px auto;
+}
+
+h1 {
+  margin: 40px 10px 10px;
+  line-height: 1.3;
+  text-align: justify;
+}
+
+p,
+ul {
+  margin-left: 10px;
+  text-align: justify;
+  font-weight: lighter;
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+  margin: px auto;
+}
+
+#dont {
+  color: red;
+  margin-left: 10px;
+}
+
+#do {
+  color: green;
+  margin-left: 10px;
+}
+
+.signature {
+  text-align: right;
+  font-family: monospace;
+  font-size: 9px;
+}

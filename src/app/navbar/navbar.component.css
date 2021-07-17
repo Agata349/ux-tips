@@ -1,4 +1,14 @@
+.navbar-expand-lg {
+  margin-bottom: 40px;
+}
+
+h1 {
+  margin: 15px;
+  padding: 3px;
+  font-family: "Otomanopee One", sans-serif;
+}
+
 a {
-  margin: 5px 15px;
-  font-size: 24px;
+  margin: 3px 15px;
+  font-size: 20px;
 }
