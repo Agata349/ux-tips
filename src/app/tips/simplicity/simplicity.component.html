@@ -1,1 +1,128 @@
-<p>simplicity works!</p>
+<mat-card>
+    <h1>Simplicity</h1>
+        <p>"Elegance is not the abundance of simplicity. It is the absence of complexity."</p>
+        <p class="anonymous">- Anonymous</p>
+    <p>Remember! Simple means: <strong>elegant, expensive, professional</strong></p>
+    <p><strong>Whitespace</strong> is the absence of text and graphics. Doesn't need to be WHITE!</p>
+</mat-card>
+<mat-card>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <h2 class="dont">DON'Ts<i class="far fa-times-circle" id="dont"></i></h2>
+            </div>
+            <div class="col-6">
+                <h2 class="do">DO's<i class="far fa-check-circle" id="do"></i></h2>
+            </div>
+        </div>
+    </div>
+    <img src="../../../assets/simplicity.jpg" class="responsive" alt="example of business-card alignment">
+    <p class="signature">By Agata Piekarczyk</p>
+</mat-card>
+<mat-card>
+  
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <h2 class="dont">DON'Ts<i class="far fa-times-circle" id="dont"></i></h2>
+            </div>
+        </div>
+    </div>
+
+    <form class="form">
+        <mat-form-field class="full-width" appearance="fill">
+            <mat-label>First Name</mat-label>
+            <input matInput placeholder="Enter your first name">
+        </mat-form-field>
+        <mat-form-field class="full-width" appearance="fill">
+            <mat-label>Second Name</mat-label>
+            <input matInput placeholder="Enter your second name">
+        </mat-form-field>
+        <mat-form-field class="full-width" appearance="fill">
+            <mat-label>1st line of address</mat-label>
+            <input matInput placeholder="Name of the street">
+        </mat-form-field>
+        <mat-form-field class="full-width" appearance="fill">
+            <mat-label>2nd line of address</mat-label>
+            <input matInput placeholder="House/Flat no.">
+        </mat-form-field>
+        <mat-form-field class="full-width" appearance="fill">
+            <mat-label>3rd line of address</mat-label>
+            <input matInput placeholder="Post code">
+        </mat-form-field>
+        <mat-form-field class="full-width" appearance="fill">
+            <mat-label>4th line of address</mat-label>
+            <input matInput placeholder="Town">
+        </mat-form-field>
+        <mat-form-field class="full-width" appearance="fill">
+            <mat-label>5th line of address</mat-label>
+            <input matInput placeholder="Country">
+        </mat-form-field>
+    </form>
+    <button mat-button>Submit</button>
+    <br>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <h2 class="do">DO's<i class="far fa-check-circle" id="do"></i></h2>
+            </div>
+        </div>
+    </div>
+
+<mat-horizontal-stepper [labelPosition]="'bottom'">
+    <mat-step errorMessage="Please enter the details" [stepControl]="step1" [editable]="true" [completed]="completed">
+        <form [formGroup]="step1" class="stepper-form">
+        <ng-template matStepLabel>Name</ng-template>
+        <div>
+            <mat-form-field class="full-width" appearance="fill">
+                <input mat-input matInput placeholder="First name" formControlName="isNotEmpty"/>
+            </mat-form-field>
+            <mat-form-field class="full-width" appearance="fill">
+                <input mat-input matInput placeholder="Second name" formControlName="isNotEmpty" />
+            </mat-form-field>
+            <button mat-button matStepperNext>Next</button>
+        </div>
+        </form>
+    </mat-step>
+    <mat-step errorMessage="Please enter the details" [stepControl]="step2" [editable]="true" [completed]="completed">
+        <form [formGroup]="step2">
+            <ng-template matStepLabel>Address</ng-template>
+            <div>
+                <mat-form-field class="full-width" appearance="fill">
+                    <input mat-input matInput placeholder="Street name"formControlName="isNotEmpty" />
+                </mat-form-field>
+                <mat-form-field class="full-width" appearance="fill">
+                    <input mat-input matInput placeholder="House/flat no." formControlName="isNotEmpty" />
+                </mat-form-field>
+                <mat-form-field class="full-width" appearance="fill">
+                    <input mat-input matInput placeholder="Post code" formControlName="isNotEmpty" />
+                </mat-form-field>
+                <mat-form-field class="full-width" appearance="fill">
+                    <input mat-input matInput placeholder="Town" formControlName="isNotEmpty" />
+                </mat-form-field>
+                <mat-form-field class="full-width" appearance="fill">
+                    <input mat-input matInput placeholder="Country" formControlName="isNotEmpty" />
+                </mat-form-field>
+                <button mat-button matStepperPrevious>Back</button>
+                <button mat-button matStepperNext>Next</button>
+            </div>
+        </form>
+    </mat-step>
+    <mat-step>
+        <ng-template matStepLabel>Done</ng-template>
+        <p>All done!</p>
+        <div>
+            <button mat-button matStepperPrevious>Back</button>
+        </div>
+    </mat-step>
+</mat-horizontal-stepper>
+</mat-card>
+<mat-card>
+    <h2>Tips</h2>
+        <p>Use dropdown lists, advanced hidden options, steppers and always ask yourself these two questions:<br><br>
+            1. Does it make the task easier?<br>
+            2. Does it add value?<br><br>
+            If the the answer is "no", leave it off!
+        </p>
+</mat-card>
