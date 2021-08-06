@@ -28,6 +28,14 @@ ul {
   font-size: 20px;
 }
 
+ol {
+  margin-left: 0;
+  text-align: justify;
+  font-weight: lighter;
+  line-height: 1.5;
+  font-size: 20px;
+}
+
 .responsive {
   width: 100%;
   height: auto;

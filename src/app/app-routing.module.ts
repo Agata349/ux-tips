@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AlignmentComponent } from './tips/alignment/alignment.component';
-import { DesignThinkingComponent } from './design-thinking/design-thinking.component';
 import { HomeComponent } from './home/home.component';
 import { PersonaComponent } from './persona/persona.component';
 import { ProximityComponent } from './tips/proximity/proximity.component';
@@ -13,6 +12,7 @@ import { VisibilityComponent } from './tips/visibility/visibility.component';
 import { UnderstandabilityComponent } from './tips/understandability/understandability.component';
 import { SimplicityComponent } from './tips/simplicity/simplicity.component';
 import { UsersInfoComponent } from './tips/users-info/users-info.component';
+import { DesignSystemComponent } from './design-system/design-system.component';
 
 
 const routes: Routes = [
@@ -21,9 +21,6 @@ const routes: Routes = [
 },
   {
   path: 'persona', component:PersonaComponent
-},
-{
-  path: 'design-thinking', component:DesignThinkingComponent
 },
 {
   path: 'alignment', component:AlignmentComponent
@@ -54,8 +51,10 @@ const routes: Routes = [
 },
 {
   path: 'users-info', component:UsersInfoComponent
+},
+{
+  path: 'design-system', component:DesignSystemComponent
 }
-
 
 ];
 

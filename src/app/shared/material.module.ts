@@ -7,6 +7,10 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatStepperModule} from '@angular/material/stepper';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {MatInputModule} from '@angular/material/input';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+import {MatCheckboxModule} from '@angular/material/checkbox';
+import {MatDatepickerModule} from '@angular/material/datepicker';
 
 @NgModule({
   declarations: [],
@@ -18,7 +22,11 @@ import {MatInputModule} from '@angular/material/input';
     MatStepperModule,
     FormsModule, 
     ReactiveFormsModule,
-    MatInputModule
+    MatInputModule,
+    MatProgressBarModule,
+    MatProgressSpinnerModule,
+    MatCheckboxModule,
+    MatDatepickerModule
   ]
 })
 export class MaterialModule { }

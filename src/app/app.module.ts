@@ -7,7 +7,6 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { PersonaComponent } from './persona/persona.component';
 import { HomeComponent } from './home/home.component';
 import { AlignmentComponent } from './tips/alignment/alignment.component';
-import { DesignThinkingComponent } from './design-thinking/design-thinking.component';
 import { ProximityComponent } from './tips/proximity/proximity.component';
 import { ConsistencyComponent } from './tips/consistency/consistency.component';
 import { ContrastComponent } from './tips/contrast/contrast.component';
@@ -21,6 +20,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MaterialModule} from './shared/material.module';
 import { FormsModule } from '@angular/forms';
+import { DesignSystemComponent } from './design-system/design-system.component';
 
 
 @NgModule({
@@ -30,7 +30,6 @@ import { FormsModule } from '@angular/forms';
     PersonaComponent,
     HomeComponent,
     AlignmentComponent,
-    DesignThinkingComponent,
     ProximityComponent,
     ConsistencyComponent,
     ContrastComponent,
@@ -39,7 +38,8 @@ import { FormsModule } from '@angular/forms';
     VisibilityComponent,
     UnderstandabilityComponent,
     SimplicityComponent,
-    UsersInfoComponent
+    UsersInfoComponent,
+    DesignSystemComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,14 @@
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.fa-plus,
+.fa-minus {
+  color: green;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.fa-minus {
+  color: red;
+}
