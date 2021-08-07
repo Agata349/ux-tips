@@ -1,21 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+
 h1,
 button {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "DM Serif Display", serif;
   font-size: 34px;
   line-height: 1.3;
-  font-weight: bold;
 }
 
-h2 {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 24px;
-  line-height: 1.3;
-  font-weight: bold;
+.center {
+  text-align: center;
 }
 
-h5 {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-weight: bold;
+.design-thinking {
+  text-align: left;
+}
+
+h4 {
+  font-family: "DM Serif Display", serif;
 }
 
 button {
@@ -23,7 +24,7 @@ button {
   padding: 7px;
   border: none;
   border-radius: 2px;
-  font-size: 18px;
+  font-size: 16px;
   cursor: none;
   background-color: rgb(53, 50, 50);
   color: white;
@@ -46,6 +47,10 @@ button {
 }
 
 .limitTextHeight {
-  height: 68px;
+  height: 75px;
   overflow: hidden;
+}
+
+.text-responsive {
+  font-size: calc(100% + 1vw + 1vh);
 }

@@ -11,22 +11,22 @@
         <div class="carousel-item active">
             <img src="../../assets/carousel-1.jpg" class="d-block w-100" alt="a bulb">
             <div class="carousel-caption .d-block">
-                <h5>Design thinking</h5>
-                <p>How to meet our users' needs?</p>
+                <h4>Design thinking</h4>
+                <p class="center">How to meet our users' needs?</p>
             </div>
         </div>
         <div class="carousel-item">
             <img src="../../assets/carousel-2.jpg" class="d-block w-100" alt="an orange">
             <div class="carousel-caption .d-block">
-                <h5>Tips & Tricks</h5>
-                <p>Colors, contrast, typography...</p>
+                <h4>Tips & Tricks</h4>
+                <p class="center">Colors, contrast, typography...</p>
             </div>
         </div>
         <div class="carousel-item">
             <img src="../../assets/carousel-3.jpg" class="d-block w-100" alt="an abstract painting">
             <div class="carousel-caption .d-block">
-                <h5>Design System</h5>
-                <p>Why is so important?</p>
+                <h4>Design System</h4>
+                <p class="center">Why is so important?</p>
             </div>
         </div>
     </div>
@@ -35,9 +35,9 @@
 
 <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
     <div>
-        <h1>What is the difference between UI & UX?</h1>
+        <h1 class="text-responsive">What is the difference between UI & UX?</h1>
         <div [ngClass]="{'limitTextHeight': isReadMore}">
-            <p class="lead my-3"><strong>UX (User Experience)</strong> in a few words: functionality of the product
+            <p><strong>UX (User Experience)</strong> in a few words: functionality of the product
                 (web application, furniture or a bottle of shampoo!).
                 UX includes all aspects of the end user's
                 interaction with the company, its services, and its products. In other words connects with each
@@ -56,9 +56,11 @@
         <div class="row">
             <div class="col-6">
                 <mat-card>
-                <h2>
+                    <hr>
+                    <br>
+                <h1 class="text-responsive">
                     Is your product...
-                </h2>
+                </h1>
                 <div class="text-center">
                     <button>useful?</button>
                     <button>easy to use?</button>
@@ -68,11 +70,11 @@
             </div>
             <div class="col-6"> 
                 <mat-card>
-                <h2>What is design thinking?</h2>
+                <h1 class="text-responsive">What is design thinking?</h1>
                 <div [ngClass]="{'limitTextHeight': isReadMore}">
-                    <p>Design thinking is a process that seeks and to solve complex problems by taking into account
+                    <p class="design-thinking">Design thinking is a process that seeks and to solve complex problems by taking into account
                         what the users' needs are.</p>
-                    <ol>
+                    <ol class="design-thinking">
                         <li><strong>Empathize</strong> - Research Your Users' Needs</li>
                         <li><strong>Define</strong> - State Your Users' Needs and Problems</li>
                         <li><strong>Ideate</strong> - Challenge Assumptions and Create Ideas</li>
@@ -84,12 +86,11 @@
                         {{ isReadMore ? 'Read More': 'Read Less' }}
                     </button>    
                 </mat-card>
-
             </div>
         </div>
     </div>
 <mat-card>
-    <h2>The most common roles in UX</h2>
+    <h1 class="text-responsive">The most common roles in UX</h1>
         <ul>
             <li><strong>UX Designer</strong> - creates prototypes, wireframes</li>
             <li><strong>UX/UI Designer</strong> - creates prototypes, takes care of visual design</li>
@@ -99,6 +100,30 @@
             <li><strong>UX Copywriter</strong> - takes care of the language which is the most convenient for the users</li>
             <li><strong>Visual/Graphic Designer</strong> - creates icons and visual elements for UI, create and applies styles</li>
         </ul>
+</mat-card>
+<mat-card>
+    <h1 class="text-responsive">Types of research</h1>
+    <ol>
+        <li><strong>Qualitative</strong></li>
+        <ul>
+            <li><strong>In-depth interviews</strong> - asking open-ended questions verbally to respondents</li>
+            <li><strong>Focus groups</strong> - discussion among a group of people about a topic to gather 
+                opinions that can be used for further research.</li>
+            <li><strong>Ethnography</strong> - Participating in a community or organization for an 
+                extended period of time to closely observe culture and behavior</li>
+        </ul>
+        <li><strong>Quantitative</strong></li>
+        <ul>
+            <li><strong>Surveys</strong> - list of closed or multiple choice questions that is distributed to a sample (online, in person, or over the phone)</li>
+        </ul>
+    </ol>
+</mat-card>
+<mat-card>
+    <h1 class="text-responsive">When to use qualitative vs. quantitative research</h1>
+    <ul>
+    <li><strong>Quantitative research</strong> - helps to <strong>confirm or test</strong> a theory or hypothesis</li>
+    <li><strong>Qualitative research</strong> - helps to <strong>understand</strong> concepts, thoughts, experiences</li>
+    </ul>
 </mat-card>
 
 

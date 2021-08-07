@@ -36,6 +36,54 @@
         </ol> 
 </mat-card>
 <mat-card>
-    <h1>Examples of Design System</h1>
-
+    <h1>Examples of Design System elements</h1><br>
+    <h2>Colors and logo</h2>
+    <img src="../../assets/style-guide.jpg" class="responsive" alt="brand colors">
+    <hr><br>
+    <h2>Gradients and pictures</h2>
+    <img src="../../assets/gradients.jpg" class="responsive" alt="brand gradients">
+    <hr><br>
+    <h2>Typography</h2>
+    <img src="../../assets/typography-design.jpg" class="responsive" alt="typography">
+    <hr><br>
+    <h2>Incorrect use of pictures</h2>
+    <img src="../../assets/incorrect-pictures.jpg" class="responsive" alt="incorrect pictures">
+    <hr><br>
+    <h2>Pricing example</h2>
+    <img src="../../assets/bootstrap-pricing.jpg" alt="pricing-example" class="responsive">
+    <hr>
+    <h2>Slider</h2>
+<mat-slide-toggle>Slide me!</mat-slide-toggle>
+<hr>
+<h2>Chips</h2>
+<mat-chip-list aria-label="Fish selection">
+    <mat-chip>HTML</mat-chip>
+    <mat-chip>CSS</mat-chip>
+    <mat-chip color="primary" selected>JavaScript</mat-chip>
+    <mat-chip color="accent" selected>TypeScript</mat-chip>
+</mat-chip-list>
+<hr>
+<h2>Checkbox</h2>
+<section class="section">
+    <mat-checkbox class="margin">Check me!</mat-checkbox>
+    <mat-checkbox class="margin" [disabled]="true">Disabled</mat-checkbox>
+</section>
+<section class="section">
+    <span class="list-section">
+        <mat-checkbox class="margin" [checked]="allComplete" [color]="task.color"
+            [indeterminate]="someComplete()" (change)="setAll($event.checked)">
+            {{task.name}}
+        </mat-checkbox>
+    </span>
+    <span class="list-section">
+        <ul>
+            <li *ngFor="let subtask of task.subtasks">
+                <mat-checkbox [(ngModel)]="subtask.completed" [color]="subtask.color"
+                    (ngModelChange)="updateAllComplete()">
+                    {{subtask.name}}
+                </mat-checkbox>
+            </li>
+        </ul>
+    </span>
+</section>
 </mat-card>

@@ -11,6 +11,8 @@ import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatDatepickerModule} from '@angular/material/datepicker';
+import {MatSlideToggleModule} from '@angular/material/slide-toggle';
+import {MatChipsModule} from '@angular/material/chips';
 
 @NgModule({
   declarations: [],
@@ -26,7 +28,9 @@ import {MatDatepickerModule} from '@angular/material/datepicker';
     MatProgressBarModule,
     MatProgressSpinnerModule,
     MatCheckboxModule,
-    MatDatepickerModule
+    MatDatepickerModule,
+    MatSlideToggleModule,
+    MatChipsModule
   ]
 })
 export class MaterialModule { }

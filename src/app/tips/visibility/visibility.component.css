@@ -1,12 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Squada+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
 
 .spacer {
   flex: 1 1 auto;
 }
 
-h1 {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+h1,
+h2 {
+  font-family: "DM Serif Display", serif;
 }
 
 .dont,

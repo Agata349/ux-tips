@@ -1,5 +1,8 @@
-h1 {
-  font-family: Georgia, "Times New Roman", Times, serif;
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+
+h1,
+h2 {
+   font-family: "DM Serif Display", serif;
 }
 
 .fa-plus,
@@ -11,4 +14,17 @@ h1 {
 
 .fa-minus {
   color: red;
+}
+
+.section {
+  margin: 12px 0;
+}
+
+.margin {
+  margin: 0 12px;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 4px;
 }

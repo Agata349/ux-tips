@@ -21,6 +21,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule} from './shared/material.module';
 import { FormsModule } from '@angular/forms';
 import { DesignSystemComponent } from './design-system/design-system.component';
+import { PrototypingComponent } from './prototyping/prototyping.component';
 
 
 @NgModule({
@@ -39,7 +40,8 @@ import { DesignSystemComponent } from './design-system/design-system.component';
     UnderstandabilityComponent,
     SimplicityComponent,
     UsersInfoComponent,
-    DesignSystemComponent
+    DesignSystemComponent,
+    PrototypingComponent
   ],
   imports: [
     BrowserModule,

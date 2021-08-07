@@ -1,9 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+
 h1,
 h2,
 thead {
-  /*font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;*/
-  font-family: Georgia, "Times New Roman", Times, serif;
+   font-family: "DM Serif Display", serif;
 }
 
 .dont,
