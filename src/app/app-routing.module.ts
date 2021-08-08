@@ -13,6 +13,7 @@ import { UnderstandabilityComponent } from './tips/understandability/understanda
 import { SimplicityComponent } from './tips/simplicity/simplicity.component';
 import { UsersInfoComponent } from './tips/users-info/users-info.component';
 import { DesignSystemComponent } from './design-system/design-system.component';
+import { PrototypingComponent } from './prototyping/prototyping.component';
 
 
 const routes: Routes = [
@@ -54,6 +55,9 @@ const routes: Routes = [
 },
 {
   path: 'design-system', component:DesignSystemComponent
+},
+{
+  path: 'prototyping', component:PrototypingComponent
 }
 
 ];

@@ -1,14 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
 
 h1,
-button {
+.out-of-the-box {
   font-family: "DM Serif Display", serif;
   font-size: 34px;
   line-height: 1.3;
 }
 
+h2 {
+  font-family: "DM Serif Display", serif;
+}
+
+.thin {
+  font-weight: lighter;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
 .center {
   text-align: center;
+}
+
+.out-of-the-box {
+  font-size: 24px;
 }
 
 .design-thinking {
@@ -20,11 +33,11 @@ h4 {
 }
 
 button {
-  margin: 10px;
-  padding: 7px;
+  margin: 10px 40px;
+  padding: 10px 20px;
   border: none;
   border-radius: 2px;
-  font-size: 16px;
+  font-size: 18px;
   cursor: none;
   background-color: rgb(53, 50, 50);
   color: white;
@@ -38,14 +51,6 @@ button {
   margin: 15px 0 0;
 }
 
-.readMore2 {
-  background-color: #fff;
-  color: rgb(53, 50, 50);
-  text-decoration: underline;
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 0;
-}
-
 .limitTextHeight {
   height: 75px;
   overflow: hidden;
@@ -53,4 +58,8 @@ button {
 
 .text-responsive {
   font-size: calc(100% + 1vw + 1vh);
+}
+
+small {
+  font-size: 11px;
 }

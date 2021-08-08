@@ -32,7 +32,6 @@
     </div>
 </div>
 <br>
-
 <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
     <div>
         <h1 class="text-responsive">What is the difference between UI & UX?</h1>
@@ -44,51 +43,36 @@
                 other technology, design and business.
                 <strong>UI (User Interface)</strong> is everything what the user sees: colors, typography, distance between elements
                 and
-                much more!
-            </p>
+                much more! <br><br>
+                <span class="out-of-the-box">To meet users' needs you have to <em>think out of the box!</em></span></p>
+                <p>Also you need to ask yourself if your product is...</p>
+                <ul>
+                    <li>useful?</li>
+                    <li>easy to use?</li>
+                    <li>fun?</li>
+                </ul>
+                <p>To create a product which make our users happy, we need to follow some rules. 
+                    Everything matters and there are some certain steps which can never be omitted, e.g.
+                    user's research, empathy maps, customer journey maps, creating personas, wireframing and 
+                    prototyping, usability testing and much more!</p>  
         </div>
         <button type="button" class="readMore" (click)="showText()">
             {{ isReadMore ? 'Read More': 'Read Less' }}
         </button>
     </div>
 </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-6">
-                <mat-card>
-                    <hr>
-                    <br>
-                <h1 class="text-responsive">
-                    Is your product...
-                </h1>
-                <div class="text-center">
-                    <button>useful?</button>
-                    <button>easy to use?</button>
-                    <button>fun?</button>
-                </div>
-                </mat-card>
-            </div>
-            <div class="col-6"> 
-                <mat-card>
-                <h1 class="text-responsive">What is design thinking?</h1>
-                <div [ngClass]="{'limitTextHeight': isReadMore}">
-                    <p class="design-thinking">Design thinking is a process that seeks and to solve complex problems by taking into account
-                        what the users' needs are.</p>
-                    <ol class="design-thinking">
-                        <li><strong>Empathize</strong> - Research Your Users' Needs</li>
-                        <li><strong>Define</strong> - State Your Users' Needs and Problems</li>
-                        <li><strong>Ideate</strong> - Challenge Assumptions and Create Ideas</li>
-                        <li><strong>Prototype</strong> - Start to Create Solutions</li>
-                        <li><strong>Test</strong> - Try Your Solutions Out</li>
-                    </ol>
-                    </div>
-                    <button type="button" class="readMore2" (click)="showText()">
-                        {{ isReadMore ? 'Read More': 'Read Less' }}
-                    </button>    
-                </mat-card>
-            </div>
-        </div>
-    </div>
+<mat-card>
+    <h1 class="text-responsive">What is design thinking?</h1>
+        <p class="design-thinking">Design thinking is a process that seeks and to solve complex problems by taking into account
+            what the users' needs are.</p>
+        <ol class="design-thinking">
+            <li><strong>Empathize</strong> - Research Your Users' Needs</li>
+            <li><strong>Define</strong> - State Your Users' Needs and Problems</li>
+            <li><strong>Ideate</strong> - Challenge Assumptions and Create Ideas</li>
+            <li><strong>Prototype</strong> - Start to Create Solutions</li>
+            <li><strong>Test</strong> - Try Your Solutions Out</li>
+        </ol>  
+</mat-card>
 <mat-card>
     <h1 class="text-responsive">The most common roles in UX</h1>
         <ul>
@@ -117,13 +101,41 @@
             <li><strong>Surveys</strong> - list of closed or multiple choice questions that is distributed to a sample (online, in person, or over the phone)</li>
         </ul>
     </ol>
-</mat-card>
-<mat-card>
     <h1 class="text-responsive">When to use qualitative vs. quantitative research</h1>
     <ul>
     <li><strong>Quantitative research</strong> - helps to <strong>confirm or test</strong> a theory or hypothesis</li>
     <li><strong>Qualitative research</strong> - helps to <strong>understand</strong> concepts, thoughts, experiences</li>
     </ul>
 </mat-card>
-
+<mat-card>
+    <h1>Empathy Map</h1>
+    <p>It helps team members understand the user’s mindset. We use it to:</p>
+    <ul>
+        <li>Build empathy for your users</li>
+        <li>Force alignment and understanding about a user type</li>
+    </ul>
+    <p>When to use it:</p>
+    <ul>
+        <li>Beginning of any design process</li>
+        <li>When categorizing research notes from a user interview</li>
+    </ul>
+    <h2>Empathy Map example <span class="thin"><em>(Booking vacation)</em></span></h2>
+        <img src="../../assets/empathy-map.jpg" alt="empathy map" class="responsive"><hr>
+    <h1>Customer Journey Map</h1>
+    <p>It focuses on a specific customer’s interaction with a product or service. We use it to:</p>
+    <ul>
+        <li>Highlight specific customer journey touchpoints that cause pain or user's happiness</li>
+        <li>Create one shared, organization-wide understanding of the customer journey</li>
+    </ul>
+    <p>When to use it:</p>
+    <ul>
+        <li>At any point in the design process, as a reference point amongst a team throughout a product design cycle</li>
+    </ul>
+    <h2><em>Customer Journey Map</em> example</h2>
+    <h1>Customer Experience Map</h1>
+    <p>It generalizes the concept of customer-journey maps across user types and products. 
+        It is not tied to a specific product or service. We use it to understand a general human behavior 
+        (before a customer journey map in order to gain understanding for a general human behavior).</p>
+        <small>More info on:<a href="https://www.nngroup.com/articles/ux-mapping-cheat-sheet/"> nngroup.com</a></small>
+</mat-card>
 
