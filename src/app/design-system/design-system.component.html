@@ -25,14 +25,14 @@
     <h1>Three approaches of implementing Design System</h1>
     <p>Depending on budget and needs, companies can select one of three approaches to design systems:</p>
         <ol>
-            <li><strong>Adopt</strong> an existing system in its entirety</li>
+            <li><strong>Adopt</strong> an existing system in its entirety</li><br>
                 <p><i class="fas fa-plus"></i>low cost, less customization</p> 
                 <p><i class="fas fa-minus"></i>low brand differentiation</p>
-            <li><strong>Adapt</strong> an existing system to the company’s needs</li>
-            <p><i class="fas fa-plus"></i>| <i class="fas fa-minus"></i>Medium cost, medium brand recognition</p>
-            <li><strong>Create</strong> an entirely new one </li>
-            <p><i class="fas fa-minus"></i>high cost, more customization</p>
-            <p><i class="fas fa-plus"></i>high brand differentiation</p>
+            <li><strong>Adapt</strong> an existing system to the company’s needs</li><br>
+                <p><i class="fas fa-plus"></i>| <i class="fas fa-minus"></i>Medium cost, medium brand recognition</p><br>
+            <li><strong>Create</strong> an entirely new one </li><br>
+                <p><i class="fas fa-plus"></i>high brand differentiation</p>
+                <p><i class="fas fa-minus"></i>high cost, more customization</p>   
         </ol> 
 </mat-card>
 <mat-card>
@@ -76,7 +76,7 @@
         </mat-checkbox>
     </span>
     <span class="list-section">
-        <ul>
+        <ul class="checkbox-list">
             <li *ngFor="let subtask of task.subtasks">
                 <mat-checkbox [(ngModel)]="subtask.completed" [color]="subtask.color"
                     (ngModelChange)="updateAllComplete()">
@@ -86,4 +86,5 @@
         </ul>
     </span>
 </section>
+<hr>
 </mat-card>

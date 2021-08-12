@@ -2,7 +2,7 @@
 
 h1,
 h2 {
-   font-family: "DM Serif Display", serif;
+  font-family: "DM Serif Display", serif;
 }
 
 .fa-plus,
@@ -24,7 +24,7 @@ h2 {
   margin: 0 12px;
 }
 
-ul {
+.checkbox-list {
   list-style-type: none;
   margin-top: 4px;
 }

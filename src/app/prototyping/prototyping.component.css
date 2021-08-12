@@ -1,0 +1,15 @@
+h1,
+h2 {
+  font-family: "DM Serif Display", serif;
+}
+
+.fa-plus,
+.fa-minus {
+  color: green;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.fa-minus {
+  color: red;
+}
