@@ -41,7 +41,7 @@ import { PrototypingComponent } from './prototyping/prototyping.component';
     SimplicityComponent,
     UsersInfoComponent,
     DesignSystemComponent,
-    PrototypingComponent
+    PrototypingComponent,
   ],
   imports: [
     BrowserModule,
