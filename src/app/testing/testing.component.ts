@@ -9,20 +9,23 @@ export interface Task {
 }
 
 @Component({
-  selector: 'app-design-system',
-  templateUrl: './design-system.component.html',
-  styleUrls: ['./design-system.component.css']
+  selector: 'app-testing',
+  templateUrl: './testing.component.html',
+  styleUrls: ['./testing.component.css']
 })
-export class DesignSystemComponent implements OnInit {
+export class TestingComponent implements OnInit {
 
   task: Task = {
-    name: 'Indeterminate',
+    name: 'Login Page',
     completed: false,
     color: 'primary',
     subtasks: [
-      {name: 'Primary', completed: false, color: 'primary'},
-      {name: 'Accent', completed: false, color: 'accent'},
-      {name: 'Warn', completed: false, color: 'warn'}
+      {name: 'Logo', completed: false, color: 'primary'},
+      {name: 'Title', completed: false, color: 'primary'},
+      {name: 'Account identification', completed: false, color: 'primary'},
+      {name: 'Password', completed: false, color: 'primary'},
+      {name: 'Link to reset password', completed: false, color: 'primary'},
+      {name: 'Link to sign up', completed: false, color: 'primary'}
     ]
   };
 
@@ -53,5 +56,4 @@ export class DesignSystemComponent implements OnInit {
   }
 
 }
-
 

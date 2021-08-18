@@ -14,6 +14,7 @@ import { SimplicityComponent } from './tips/simplicity/simplicity.component';
 import { UsersInfoComponent } from './tips/users-info/users-info.component';
 import { DesignSystemComponent } from './design-system/design-system.component';
 import { PrototypingComponent } from './prototyping/prototyping.component';
+import { TestingComponent } from './testing/testing.component';
 
 
 const routes: Routes = [
@@ -58,6 +59,12 @@ const routes: Routes = [
 },
 {
   path: 'prototyping', component:PrototypingComponent
+},
+{
+  path: 'testing', component:TestingComponent
+},
+{
+  path: '**', pathMatch: 'full', redirectTo: 'home'
 }
 
 ];

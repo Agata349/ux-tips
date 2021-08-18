@@ -22,6 +22,7 @@ import { MaterialModule} from './shared/material.module';
 import { FormsModule } from '@angular/forms';
 import { DesignSystemComponent } from './design-system/design-system.component';
 import { PrototypingComponent } from './prototyping/prototyping.component';
+import { TestingComponent } from './testing/testing.component';
 
 
 @NgModule({
@@ -42,6 +43,7 @@ import { PrototypingComponent } from './prototyping/prototyping.component';
     UsersInfoComponent,
     DesignSystemComponent,
     PrototypingComponent,
+    TestingComponent,
   ],
   imports: [
     BrowserModule,

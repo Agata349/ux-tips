@@ -1,6 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Georama&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 
 .navbar-expand-lg {
   margin-bottom: 40px;
@@ -9,10 +8,9 @@
 h1 {
   margin: 15px;
   padding: 3px;
-  font-size: 30px;
-  /*font-family: "DM Serif Display", serif;*/
-  font-family: "Abril Fatface", cursive;
-  color: #3a84a1;
+  font-size: 35px;
+  font-family: 'Acme', sans-serif;
+  color: #1e5f79;
 }
 
 a {

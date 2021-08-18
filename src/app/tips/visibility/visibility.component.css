@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Squada+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
 
 .spacer {
   flex: 1 1 auto;
@@ -7,7 +7,7 @@
 
 h1,
 h2 {
-  font-family: "DM Serif Display", serif;
+ font-family: "Acme", sans-serif;
 }
 
 .dont,
@@ -23,8 +23,9 @@ h2 {
 }
 
 .incorrect-title {
-  font-size: 26px;
+  font-size: 20px;
   font-family: "Squada One", cursive;
+  font-size: calc(100% + 1vw + 1vh);
 }
 
 .incorrect-tabs {
@@ -43,6 +44,12 @@ h4 {
   font-weight: thin;
 }
 
-.banner {
+#banner {
   float: right;
+}
+
+@media (max-width: 500px) {
+  h4 {
+    font-size: 12px;
+  }
 }
