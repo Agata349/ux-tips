@@ -3,12 +3,6 @@ h2 {
   font-family: "Acme", sans-serif;
 }
 
-@media (max-width: 500px) {
-  .walkthrough {
-    text-align: left;
-  }
-}
-
 .section {
   margin: 12px 0;
 }
