@@ -15,6 +15,8 @@ import { UsersInfoComponent } from './tips/users-info/users-info.component';
 import { DesignSystemComponent } from './design-system/design-system.component';
 import { PrototypingComponent } from './prototyping/prototyping.component';
 import { TestingComponent } from './testing/testing.component';
+import { MapsComponent } from './maps/maps.component';
+import { DesignThinkingComponent } from './design-thinking/design-thinking.component';
 
 
 const routes: Routes = [
@@ -64,13 +66,19 @@ const routes: Routes = [
   path: 'testing', component:TestingComponent
 },
 {
+  path: 'maps', component:MapsComponent
+},
+{
+  path: 'design-thinking', component:DesignThinkingComponent
+},
+{
   path: '**', pathMatch: 'full', redirectTo: 'home'
 }
 
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {scrollPositionRestoration: 'enabled'})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
