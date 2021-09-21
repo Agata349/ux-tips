@@ -9,7 +9,8 @@ h1,
 
 .teaser {
   font-family: "Acme", sans-serif;
-  font-size: 22px;
+  font-size: 20px;
+  margin-top: 15px;
 }
 
 a {
@@ -55,6 +56,14 @@ img {
   p,
   .teaser {
     font-size: 14px;
-    text-align: left;
   }
 }
+
+figure {
+  text-align: center;
+}
+
+figcaption {
+  font-size: 16px;
+}
+

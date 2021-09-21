@@ -26,19 +26,27 @@
         </button>
 </mat-card>
 <mat-card>
+<div class="container">    
 <div class="row">
-    <div class="col">
-        <a routerLink="/color"><img src="../../assets/img1.jpg" width=250 class="responsive" alt="an orange on a blue background"></a>
-        <p><strong><a routerLink="/color">Colors, contrast, typography...</a></strong></p>
+    <div class="col-md-4">
+        <figure>
+            <a routerLink="/color"><img src="../../assets/img1.jpg" class="img-fluid" alt="an orange on a blue background"></a>
+            <figcaption><a routerLink="/color" class="caption">Colors, contrast, typography...</a></figcaption>
+        </figure>
     </div>
-    <div class="col">
-        <a routerLink="/maps"><img src="../../assets/img2.jpg" width=250 class="responsive" alt="a sign of directions"></a>
-        <p><strong><a routerLink="/maps">How to meet our users' needs?</a></strong></p>
+    <div class="col-md-4">
+        <figure>
+            <a routerLink="/maps"><img src="../../assets/img2.jpg" class="img-fluid" alt="a sign of directions"></a>
+            <figcaption><a routerLink="/maps" class="caption">How to meet our users' needs?</a></figcaption>
+        </figure>
     </div>
-    <div class="col">
-        <a routerLink="/design-thinking"><img src="../../assets/img3.jpg" width=250 class="responsive" alt="a hand with a bulb"></a>
-        <p><strong><a routerLink="/design-thinking">Design Thinking & Research</a></strong></p>
+    <div class="col-md-4">
+        <figure>
+            <a routerLink="/design-thinking"><img src="../../assets/img3.jpg" class="img-fluid" alt="a hand with a bulb"></a>
+            <figcaption><a routerLink="/design-thinking" class="caption">Design Thinking & Research</a></figcaption>
+        </figure>
     </div>
+</div>
 </div>
 <p class="teaser">Tips & Tricks, Mapping Methods and much more!</p>
 </mat-card>

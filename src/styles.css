@@ -61,3 +61,15 @@ ol {
     font-size: 14px;
   }
 }
+
+@media (max-width: 500px) {
+  footer {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .caption {
+    font-size: 14px;
+  }
+}
