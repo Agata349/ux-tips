@@ -25,6 +25,8 @@ import { PrototypingComponent } from './prototyping/prototyping.component';
 import { TestingComponent } from './testing/testing.component';
 import { MapsComponent } from './maps/maps.component';
 import { DesignThinkingComponent } from './design-thinking/design-thinking.component';
+import { ArchitectDesignerComponent } from './information-architecture/architect-designer/architect-designer.component';
+import { OverviewComponent } from './information-architecture/overview/overview.component';
 
 
 @NgModule({
@@ -48,6 +50,8 @@ import { DesignThinkingComponent } from './design-thinking/design-thinking.compo
     TestingComponent,
     MapsComponent,
     DesignThinkingComponent,
+    ArchitectDesignerComponent,
+    OverviewComponent,
   ],
   imports: [
     BrowserModule,

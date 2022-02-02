@@ -18,6 +18,10 @@ a {
   color: #000;
 }
 
+#designer-architect-comparison {
+  text-decoration: underline;
+}
+
 .out-of-the-box {
   font-size: 24px;
 }
@@ -66,4 +70,3 @@ figure {
 figcaption {
   font-size: 16px;
 }
-
