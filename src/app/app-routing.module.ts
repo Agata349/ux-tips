@@ -22,7 +22,7 @@ import { OverviewComponent } from './information-architecture/overview/overview.
 
 
 const routes: Routes = [
-  {
+{
   path: 'home', component:HomeComponent
 },
   {
@@ -80,7 +80,10 @@ const routes: Routes = [
   path: 'overview', component:OverviewComponent
 },
 {
-  path: '**', pathMatch: 'full', redirectTo: 'home'
+  path: '**', component:HomeComponent
+},
+{
+  path: '', pathMatch: 'prefix', redirectTo: 'home'
 }
 
 ];
