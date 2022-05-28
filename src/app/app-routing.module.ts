@@ -80,9 +80,6 @@ const routes: Routes = [
   path: 'overview', component:OverviewComponent
 },
 {
-  path: '**', component:HomeComponent
-},
-{
   path: '', pathMatch: 'prefix', redirectTo: 'home'
 }
 
