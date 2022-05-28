@@ -80,7 +80,7 @@ const routes: Routes = [
   path: 'overview', component:OverviewComponent
 },
 {
-  path: '', redirectTo: 'home', pathMatch: 'full'
+  path: '**', redirectTo: 'home'
 }
 
 ];
