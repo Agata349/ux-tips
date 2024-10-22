@@ -27,6 +27,8 @@ import { MapsComponent } from './maps/maps.component';
 import { DesignThinkingComponent } from './design-thinking/design-thinking.component';
 import { ArchitectDesignerComponent } from './information-architecture/architect-designer/architect-designer.component';
 import { OverviewComponent } from './information-architecture/overview/overview.component';
+import { AccessibilityComponent } from './accessibility/accessibility.component';
+import { TwentyFirstCenturyDesignComponent } from './twenty-first-century-design/twenty-first-century-design.component';
 
 
 @NgModule({
@@ -52,6 +54,8 @@ import { OverviewComponent } from './information-architecture/overview/overview.
     DesignThinkingComponent,
     ArchitectDesignerComponent,
     OverviewComponent,
+    AccessibilityComponent,
+    TwentyFirstCenturyDesignComponent,
   ],
   imports: [
     BrowserModule,
